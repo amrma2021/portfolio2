@@ -1,0 +1,173 @@
+    html {
+        scroll-behavior: smooth;
+    }
+    /* header part start */
+    
+    header {
+        background-image: url('images/banner.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        /* background-attachment: fixed; */
+        background-size: cover;
+    }
+    
+    .bannar-container {
+        height: 100vh;
+    }
+    
+    .navbar {
+        padding: 1% 7%;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    
+    .icon {
+        color: white;
+    }
+    
+    .nav-link {
+        margin: 10px;
+        border-radius: 5px;
+        transition: .4s;
+    }
+    
+    .nav-link:hover {
+        background: rgb(11, 80, 11);
+        transform: scale(1, 1);
+    }
+    
+    .banner-right {
+        margin-top: 40px;
+    }
+    
+    .heading2 {
+        color: rgb(0, 26, 255);
+        font-size: 3rem;
+    }
+    
+    .heading3 {
+        color: yellow;
+        font-size: 2rem;
+    }
+    
+    .content {
+        margin-right: 40px;
+    }
+    
+    .btn {
+        margin: 10px;
+    }
+    
+    .image {
+        margin: 80px 40px;
+    }
+    
+    .image img {
+        border: 3px solid black;
+        border-radius: 50%;
+        height: 250px;
+        width: 200px;
+    }
+    /* header part end */
+    /* features part start */
+    
+    .fetures {
+        padding: 5% 10%;
+        background: #e8ded2;
+    }
+    
+    .bodycard {
+        margin: 20px 0;
+        border: 2px solid rgb(230, 106, 62);
+        transition: 0.4s;
+        background-color: #e8ded2;
+    }
+    
+    .bodycard:hover {
+        transform: scale(1.1);
+        box-shadow: 2px 6px 5px black;
+    }
+    
+    .icon-style {
+        background: rgb(190, 64, 18);
+        color: white;
+        padding: 14px;
+    }
+    /* features part end */
+    /* start about me part */
+    
+    .hr_about {
+        border: dotted 5px white;
+        border-bottom: none;
+        background: none;
+        width: 150px;
+        margin: 0 auto;
+    }
+    
+    .about_heading {
+        margin-bottom: 20px;
+    }
+    
+    #about_me_section {
+        background: #0a043c;
+        color: white;
+    }
+    
+    #about_me {
+        font-size: 1.2rem;
+        margin-bottom: 0;
+    }
+    
+    #wellcome {
+        font-size: 3rem;
+        margin-top: 0;
+    }
+    
+    #text-about {
+        font-size: 1rem;
+    }
+    
+    .alin {
+        padding: 5% 10%;
+    }
+    
+    .prograss_p {
+        font-size: 1.3rem;
+        margin-top: 30px;
+    }
+    /* end about me part */
+    /* stat services part */
+    
+    #services {
+        background-image: url('images/serve.jpg');
+    }
+    
+    .borders {
+        box-sizing: border-box;
+        border-radius: 5px;
+        padding: 15px;
+    }
+    
+    .hovers {
+        transition: 0.4s;
+    }
+    
+    .hovers :hover {
+        background-color: blue;
+        transform: scale(1, 1);
+    }
+    
+    .carousel-item {
+        padding: 5% 15%;
+        color: white;
+    }
+    
+    .carousel-item img {
+        height: 210px;
+        width: 200px;
+        border-radius: 50%;
+    }
+    
+    #feedback {
+        background: #0a043c;
+    }
+    /* end services part */
